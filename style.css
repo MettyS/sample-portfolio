@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	line-height: 1.5;
+	
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	/*font-size: 1em;*/
+	color: white;
+
+	box-sizing: border-box;
+
+	text-align : center;
+}
+
+body {
+	margin: 0;
+	background-color: #030303;
+}
+
+.wrapper {
+	display : flex;
+	flex-direction : column;
+	justify-items: center;
+	margin : 20px;
+	/*border: red 1px solid;*/
+}
+
+.link {
+	text-decoration: none;
+}
+
+.in-text-link {
+	color: #f7c5c4;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+nav li {
+	flex: 1;
+}
+
+section {
+	margin: 20px 0;
+	padding: 20px 0;
+	background-color: #1a1a1b;
+}
+
+.profile-pic-container {
+	margin-top: 20px;
+}
+
+.profile-pic {
+	width: 50%;
+	border-radius: 50%;
+}
+
+.info {
+	margin: 0 0 20px 0;
+}
+
+#intro .info {
+	margin: 0;
+}
+
+.logo-list {
+	display: flex;
+}
+
+.logo-list ol {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+}
+
+.logo-list li {
+	flex: 1;
+}
+
+.devicon {
+	font-size: 50px;
+}
+
+#project a {
+	text-decoration: none;
+}
+
+#project div {
+	padding: 100px 0;
+	background-color: #272729;
+	margin-bottom: 5px;
+}
+
+#contact .wrapper #email-form{
+	text-align: left;
+}
+
+form input,
+form textarea {
+  width: 100%;
+}
+
+form textarea {
+	padding-bottom: 50px;
+}
+
+form {
+	text-align: left;
+}
+
+#contact label {
+	justify-items: start;
+	text-align: left;
+}
+
+#contact textarea {
+	text-align: left;
+}
+
+.user-name-email {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;;
+}
+
+.user-name-email div {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+}
+
+#contact button {
+	color: black;
+}
+
+/*
+section {
+	border: blue 1px solid;
+}
+
+nav ul {
+	display : flex;
+	flex-direction : row;
+	justify-items : center;
+}
+
+nav li {
+	flex : 1;
+}
+
+.profile-pic {
+	border-radius: 50%;
+}
+
+#image-and-name {
+	display : flex;
+	flex-direction : row;
+	align-items : center;
+	justify-items : center;
+}
+
+#image-and-name div {
+	flex : 1;
+}*/
