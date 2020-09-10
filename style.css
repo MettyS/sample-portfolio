@@ -29,6 +29,13 @@ body {
 
 .link {
 	text-decoration: none;
+	padding-bottom: 10px;
+	border-color: white;
+	border-bottom: 2px transparent solid;
+}
+
+.link:hover {
+	border-bottom: 2px solid;
 }
 
 .in-text-link {
@@ -61,7 +68,7 @@ section {
 }
 
 .info {
-	margin: 0 0 20px 0;
+	margin-bottom: 20px;
 }
 
 #intro .info {
@@ -90,10 +97,10 @@ section {
 	text-decoration: none;
 }
 
-#project div {
+#project .fake-project {
 	padding: 100px 0;
 	background-color: #272729;
-	margin-bottom: 5px;
+	margin: 0 10% 5px 10%;
 }
 
 #contact .wrapper #email-form{
@@ -138,6 +145,49 @@ form {
 	color: black;
 }
 
+
+@media all and (min-width: 600px) {
+
+	header .wrapper {
+		margin-bottom: 0;
+	}
+	main .wrapper {
+		margin-top: 0;
+	}
+
+	.profile-pic {
+		width: 200px;
+		margin-left: 50%;
+	}
+	
+	#image-and-name {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+	}
+
+	#image-and-name div {
+		flex: 2;
+		text-align: left;
+	}
+
+	#image-and-name .profile-pic-container {
+		flex: 1;
+	}
+
+	#about-me {
+		padding: 0 20% 0 20%
+	}
+
+	.info {
+		margin-top: 20px;
+	}
+
+	form {
+		margin: 0 30% 0 30%;
+	}
+
+}
 /*
 section {
 	border: blue 1px solid;
