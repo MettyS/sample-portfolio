@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>sample-portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
@@ -25,17 +26,19 @@
 
   <main>
     <div class='wrapper'>
+      <!-- start of image-and-name section -->
       <section id='image-and-name'>
           
           <div><h3>My name is Metty Schroeder</h3></div>
           <div class='profile-pic-container'><img class='profile-pic' src="images/metty/mettyschroeder-greyscale.jpeg" alt="mettyschroeder"></div>
-        <!--  Who you are - Where you are - What you do and what makes you special  -->
-      </section>
+      </section><!-- #image-and-name -->
 
+      <!-- start of intro section -->
       <section id='intro'>
         <div class='info'>I'm a software engineer based out of Columbus, Ohio.</div>
-      </section>
+      </section><!-- #intro -->
 
+      <!-- start of about-me section-->
       <section id='about-me'>
           <div class='info'>
             I've always loved coding and I love learning from other passionate individuals. 
@@ -74,61 +77,47 @@
           <div class='info'>
             My cat is my overseer and helps me debug when I run into those tricky coding problems! He also keeps me grounded during times that I can't play table tennis or go on a run.
           </div>
-        <!--  demonstrate your passion for the web - demonstrate desire to work on a team with great programmers - show your personality outside of coding - List of services you can (or want to) provide a client.  -->
-      </section>
+      </section><!-- #about-me -->
 
+      <!-- start of project section -->
       <section id='project'>
         <div class='fake-project link'><a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Project 1</a></div>
         <div class='fake-project link'><a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Project 2</a></div>
         <div class='fake-project link'><a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Project 3</a></div>
         <div class='fake-project link'><a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Project 4</a></div>
-              <!-- Project Title - Project Description - link to Project-->
-      </section>
-
-      <section id='contact'>
-        <div class="wrapper">
-          <div class='info'>
-            
-          </div>
-          <form id='email-form' action="https://formspree.io/mettyj.schroeder@gmail.com"
-          method="post">
-
-            <div class='user-name-email'>
-              <div>
-                <label for="user-name">Name:</label>
-                <input id="user-name" type="text" name="name">
-              </div>
-
-              <div>
-                <label for="user-email">Email:</label>
-                <input id="user-email" type="text" name="email">
-              </div>
-            </div>
-            <label for="user-message">Message:</label>
-            <textarea id="user-message" name="message" placeholder="What can I do for you?"></textarea>
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-        <!--  email address - link to your github profile - link to your linkedin profile  -->
-      </section>
-
-      
+      </section><!-- #project -->
 
     </div>
   </main>
 
-<!--   <footer>
-    <div class='wrapper'>
-      <nav>
-        <ul>
-          <li><a href="mailto:mettyj.schroeder@gmail.com">email</a></li>
-          <li><a href="https://github.com/MettyS">github</a></li>
-          <li><a href="https://www.linkedin.com/in/meredith-j-schroeder/">linkedin</a></li>
-          <li><a href="https://www.codewars.com/users/MettyS">codewars</a></li>
-        </ul>
-      </nav>
-    </div>
-  </footer> -->
+  <footer>
+    <!-- start of contact section -->
+    <section id='contact'>
+      <div class="wrapper">
+        <div class='info'>
+          <p>Send me an email here if you'd like to contact me about anything!</p>
+        </div>
+        <form id='email-form' action="https://formspree.io/mettyj.schroeder@gmail.com"
+        method="post">
+
+          <div class='user-name-email'>
+            <div>
+              <label for="user-name">Name:</label>
+              <input id="user-name" type="text" name="name">
+            </div>
+
+            <div>
+              <label for="user-email">Email:</label>
+              <input id="user-email" type="text" name="email">
+            </div>
+          </div>
+          <label for="user-message">Message:</label>
+          <textarea id="user-message" name="message" placeholder="What can I do for you?"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section><!-- #contact -->
+  </footer>
   
 </body>
 <script src="script.js"></script>
