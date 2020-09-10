@@ -108,6 +108,10 @@ main .wrapper {
 	margin: 0 10% 5px 10%;
 }
 
+#contact .wrapper {
+	margin-top: 0;;
+}
+
 #contact .wrapper #email-form{
 	text-align: left;
 }
@@ -185,6 +189,10 @@ form {
 
 	.info {
 		margin-top: 20px;
+	}
+
+	#project .info {
+		margin-top: 0;
 	}
 
 	#contact .info {
