@@ -6,16 +6,16 @@
 	
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: normal;
-	color: white;
 
 	box-sizing: border-box;
 
-	text-align : center;
 }
 
 body {
 	margin: 0;
 	background-color: #030303;
+	color: white;
+	text-align : center;
 }
 
 .wrapper {
@@ -32,12 +32,36 @@ body {
 	border-bottom: 2px transparent solid;
 }
 
-.link:hover {
+a.link:link {
+	color: #f7c5c4;
+}
+a.link:visited {
+	color: #f7c5c4;
+}
+a.link:hover {
+	color: white;
 	border-bottom: 2px solid;
 }
+a.link:active {
+	color: #6d6e6a;
+}
 
-.in-text-link {
+
+/*.in-text-link {
 	color: #f7c5c4;
+}*/
+#submit-button {
+	text-align: center;
+}
+
+#social-links ul {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+
+#social-links li {
+	flex: 1;
 }
 
 nav ul {
@@ -51,6 +75,7 @@ nav li {
 }
 
 section {
+	border-radius: 10px;
 	margin: 20px 0;
 	padding: 20px 0;
 	background-color: #1a1a1b;
@@ -58,6 +83,7 @@ section {
 
 header .wrapper {
 	margin-bottom: 0;
+	color: white;
 }
 main .wrapper {
 	margin-top: 0;
@@ -103,9 +129,37 @@ main .wrapper {
 }
 
 #project .fake-project {
-	padding: 100px 0;
+	/*padding: 100px 0;*/
 	background-color: #272729;
 	margin: 0 10% 5px 10%;
+	display: flex;
+	flex-flow: column;
+}
+
+.fake-project div {
+	margin: 5px;
+}
+
+.fake-project .row-one {
+	flex: 3;
+	display:flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+.fake-project .row-one .skills {
+	flex: 1;
+}
+
+.fake-project .row-one .skills ul {
+	text-align: left;
+	margin-left: 10%;
+	padding-left: 10%;
+	border-left-style: solid;
+}
+
+.fake-project .row-one .link {
+	flex: 3;
 }
 
 #contact .wrapper {
@@ -113,7 +167,7 @@ main .wrapper {
 }
 
 #contact .wrapper #email-form{
-	text-align: left;
+	text-align: left; 
 }
 
 form input,
@@ -123,6 +177,7 @@ form textarea {
 
 form textarea {
 	padding-bottom: 50px;
+	color: black
 }
 
 form {
