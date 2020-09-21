@@ -46,6 +46,9 @@ a.link:active {
 	color: #6d6e6a;
 }
 
+h3 {
+	text-align: center;
+}
 
 /*.in-text-link {
 	color: #f7c5c4;
@@ -56,7 +59,7 @@ a.link:active {
 
 #social-links ul {
 	display: flex;
-	flex-direction:row;
+	flex-direction: row;
 	justify-content: space-around;
 }
 
